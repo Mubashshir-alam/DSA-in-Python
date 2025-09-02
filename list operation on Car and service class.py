@@ -18,11 +18,7 @@ class Car:
         return (self.__model + " " + self.__registration_number + " " + (str)(self.__year))
 
 # Service class
-"""find_cars_by_year(year)	 Finds and returns the list of models of all the cars with   the year as the one passed as the argument. If there are   no cars, return None.
-add_cars(new_car_list)	 The new_car_list should be added to the instance   variable car_list.
- The car_list should be still sorted such that the years are   in ascending order.
- remove_cars_from_karnataka()	 Finds and removes all cars with registration number   beginning with “KA” from the car_list.
-"""
+
 class Service:
     def __init__(self,car_list):
         self.__car_list = car_list
